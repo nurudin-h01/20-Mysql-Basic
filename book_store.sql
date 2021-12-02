@@ -53,7 +53,7 @@ WHERE author1 = 'Budi' AND author2 = 'Joko';
 
 -- SELECT data menggunakan WHERE untuk dengan operator logical OR
 SELECT * FROM books
-WHERE author1 = 'Joko' or author2 = 'Andi';
+WHERE author1 = 'Joko' OR author2 = 'Andi';
 
 -- SELECT data menggunakan WHERE untuk dengan operator logical NOT
 SELECT * FROM books
